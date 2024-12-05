@@ -12,24 +12,73 @@ Table of Contents:
     1. Global Styles
 ////////////////////////*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
+    background-color: #F9C48B;
+    color: #260803;
+}
+
+img {
+    width: 100%;
 }
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
+h2 {
+    padding-bottom: .5rem;
+}
 
+p {
+    margin: 0.75rem 0;
+}
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-
-
+section {
+    background-color: #FDEFEC;
+    border-radius: .5rem;
+    box-shadow: 0 .08rem .15rem #000000;
+    margin: 2rem;
+    padding: 2rem;
+}
 
 /*////////////////////////
     2. Media Queries
 ////////////////////////*/
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+
+    body {
+        background-color: #F69051;
+    }
+}
+
+/*grotere schermen*/
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 20px;
+    }
+
+    body {
+        background-color: #F26D40;
+    }
+}
